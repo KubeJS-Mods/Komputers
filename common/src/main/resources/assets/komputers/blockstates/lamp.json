@@ -1,0 +1,52 @@
+{
+	"variants": {
+		"color=black,active=false": {
+			"model": "komputers:block/lamp_black"
+		},
+		"color=red,active=false": {
+			"model": "komputers:block/lamp_red"
+		},
+		"color=green,active=false": {
+			"model": "komputers:block/lamp_green"
+		},
+		"color=blue,active=false": {
+			"model": "komputers:block/lamp_blue"
+		},
+		"color=cyan,active=false": {
+			"model": "komputers:block/lamp_cyan"
+		},
+		"color=magenta,active=false": {
+			"model": "komputers:block/lamp_magenta"
+		},
+		"color=yellow,active=false": {
+			"model": "komputers:block/lamp_yellow"
+		},
+		"color=white,active=false": {
+			"model": "komputers:block/lamp_white"
+		},
+		"color=black,active=true": {
+			"model": "komputers:block/lamp_black"
+		},
+		"color=red,active=true": {
+			"model": "komputers:block/lamp_red"
+		},
+		"color=green,active=true": {
+			"model": "komputers:block/lamp_green"
+		},
+		"color=blue,active=true": {
+			"model": "komputers:block/lamp_blue"
+		},
+		"color=cyan,active=true": {
+			"model": "komputers:block/lamp_cyan"
+		},
+		"color=magenta,active=true": {
+			"model": "komputers:block/lamp_magenta"
+		},
+		"color=yellow,active=true": {
+			"model": "komputers:block/lamp_yellow"
+		},
+		"color=white,active=true": {
+			"model": "komputers:block/lamp_white"
+		}
+	}
+}

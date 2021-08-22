@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "minecraft:ender_pearl"
+		},
+		{
+			"tag": "forge:gems/quartz"
+		},
+		{
+			"tag": "forge:dusts/redstone"
+		},
+		{
+			"tag": "forge:ingots/iron"
+		},
+		{
+			"tag": "forge:ingots/iron"
+		},
+		{
+			"tag": "forge:ingots/iron"
+		},
+		{
+			"tag": "forge:ingots/iron"
+		}
+	],
+	"result": {
+		"item": "komputers:computer_parts",
+		"count": 4
+	}
+}

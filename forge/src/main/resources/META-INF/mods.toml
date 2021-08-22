@@ -1,0 +1,57 @@
+modLoader = "javafml"
+loaderVersion = "[32,)"
+issueTrackerURL = "https://github.com/KubeJS-Mods/Komputers/issues"
+license = "GNU LGPLv3"
+
+[[mods]]
+modId = "komputers"
+version = "${version}"
+displayName = "Komputers"
+authors = "LatvianModder"
+description = '''
+Computers in minecraft running JavaScript
+'''
+logoFile = "komputers_logo.png"
+license = "GNU LGPLv3"
+
+[[dependencies.komputers]]
+modId = "forge"
+mandatory = true
+versionRange = "[32.2.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.komputers]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.komputers]]
+modId = "rhino"
+mandatory = true
+versionRange = "[1605.1.2-build.47,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.komputers]]
+modId = "architectury"
+mandatory = true
+versionRange = "[1.20.28,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.komputers]]
+modId = "gamestages"
+mandatory = false
+versionRange = "[1.0.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.komputers]]
+modId = "jei"
+mandatory = false
+versionRange = "[1.0.0,)"
+ordering = "AFTER"
+side = "BOTH"

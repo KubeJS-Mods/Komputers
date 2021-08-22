@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" P ",
+		"PLP",
+		" P "
+	],
+	"key": {
+		"P": {
+			"item": "komputers:computer_parts"
+		},
+		"L": {
+			"item": "minecraft:redstone_lamp"
+		}
+	},
+	"result": {
+		"item": "komputers:lamp"
+	}
+}

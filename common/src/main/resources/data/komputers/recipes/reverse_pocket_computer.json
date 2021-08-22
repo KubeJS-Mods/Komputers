@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:smithing",
+	"base": {
+		"item": "komputers:pocket_computer"
+	},
+	"addition": {
+		"item": "komputers:computer_parts"
+	},
+	"result": {
+		"item": "komputers:computer"
+	}
+}

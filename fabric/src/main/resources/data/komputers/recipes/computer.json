@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PPP",
+		"PCG",
+		"PPP"
+	],
+	"key": {
+		"P": {
+			"item": "komputers:computer_parts"
+		},
+		"C": {
+			"item": "minecraft:comparator"
+		},
+		"G": {
+			"tag": "minecraft:glass_pane"
+		}
+	},
+	"result": {
+		"item": "komputers:computer"
+	}
+}

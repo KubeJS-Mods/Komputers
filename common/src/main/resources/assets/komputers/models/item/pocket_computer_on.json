@@ -1,0 +1,6 @@
+{
+	"parent": "komputers:item/pocket_computer",
+	"textures": {
+		"layer0": "komputers:item/pocket_computer_on"
+	}
+}

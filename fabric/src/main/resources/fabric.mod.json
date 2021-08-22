@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "komputers",
+	"version": "${version}",
+	"name": "Komputers",
+	"description": "Computers in minecraft running JavaScript",
+	"authors": [
+		"LatvianModder"
+	],
+	"contact": {
+		"sources": "https://github.com/KubeJS-Mods/Komputers",
+		"issues": "https://github.com/KubeJS-Mods/Komputers/issues"
+	},
+	"license": "GNU LGPLv3",
+	"icon": "komputers_logo.png",
+	"entrypoints": {
+		"main": [
+			"dev.latvian.mods.komputers.KomputersFabric"
+		]
+	},
+	"mixins": [
+		"komputers-common.mixins.json",
+		"komputers.mixins.json"
+	],
+	"depends": {
+		"fabric": "*",
+		"minecraft": "~1.16.4",
+		"rhino": ">=1605.1.2-build.47",
+		"architectury": ">=1.20.28"
+	}
+}
