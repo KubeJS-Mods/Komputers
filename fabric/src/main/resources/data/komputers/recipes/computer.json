@@ -13,7 +13,7 @@
 			"item": "minecraft:comparator"
 		},
 		"G": {
-			"tag": "minecraft:glass_pane"
+			"item": "minecraft:glass_pane"
 		}
 	},
 	"result": {

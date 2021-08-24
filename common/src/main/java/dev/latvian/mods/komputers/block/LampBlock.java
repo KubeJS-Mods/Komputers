@@ -23,13 +23,15 @@ import org.jetbrains.annotations.Nullable;
 public class LampBlock extends BaseEntityBlock {
 	public static final EnumProperty<LampColor> COLOR = EnumProperty.create("color", LampColor.class);
 	public static final BooleanProperty ACTIVE = BooleanProperty.create("active");
+	public static final BooleanProperty CTM = BooleanProperty.create("ctm");
 
 	public LampBlock() {
-		super(Properties.of(Material.METAL, MaterialColor.TERRACOTTA_WHITE).strength(1.5F).noDrops());
+		super(Properties.of(Material.METAL, MaterialColor.TERRACOTTA_WHITE).strength(1.5F).noDrops().lightLevel(value -> value.getValue(ACTIVE) ? 15 : 0));
 
 		registerDefaultState(defaultBlockState()
 				.setValue(COLOR, LampColor.WHITE)
 				.setValue(ACTIVE, false)
+				.setValue(CTM, true)
 		);
 	}
 
@@ -47,7 +49,7 @@ public class LampBlock extends BaseEntityBlock {
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-		builder.add(COLOR, ACTIVE);
+		builder.add(COLOR, ACTIVE, CTM);
 	}
 
 	@Override

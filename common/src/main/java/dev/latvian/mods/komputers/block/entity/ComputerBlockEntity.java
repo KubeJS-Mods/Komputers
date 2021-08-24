@@ -29,4 +29,9 @@ public class ComputerBlockEntity extends BlockEntity {
 		long id = tag.getLong("ComputerID");
 		computerHolder = id == 0L ? null : new BlockEntityComputerHolder(id, this);
 	}
+
+	@Override
+	public String toString() {
+		return String.format("ComputerBlockEntity{%016x}", computerHolder == null ? 0L : computerHolder.id);
+	}
 }
