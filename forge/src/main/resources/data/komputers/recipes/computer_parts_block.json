@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SSS",
+		"SPS",
+		"SSS"
+	],
+	"key": {
+		"P": {
+			"item": "komputers:computer_parts"
+		},
+		"S": {
+			"tag": "forge:stone"
+		}
+	},
+	"result": {
+		"item": "komputers:computer_parts_block",
+		"count": 8
+	}
+}

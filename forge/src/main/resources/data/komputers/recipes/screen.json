@@ -1,19 +1,22 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
-		" P ",
-		"PLP",
-		" P "
+		"PPG",
+		"PDG",
+		"PPG"
 	],
 	"key": {
 		"P": {
 			"item": "komputers:computer_parts"
 		},
-		"L": {
-			"item": "minecraft:redstone_lamp"
+		"D": {
+			"tag": "forge:dusts/glowstone"
+		},
+		"G": {
+			"tag": "forge:glass_panes"
 		}
 	},
 	"result": {
-		"item": "komputers:lamp"
+		"item": "komputers:screen"
 	}
 }

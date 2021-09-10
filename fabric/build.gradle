@@ -21,7 +21,8 @@ dependencies {
 
 	modApi("me.shedaniel:architectury-fabric:${rootProject.architectury_version}")
 
-	modApi("dev.latvian.mods:rhino:${rootProject.rhino_version}")
+	modImplementation("dev.latvian.mods:rhino-fabric:${rootProject.rhino_version}")
+	modImplementation "dev.latvian.mods:kubejs-fabric:${rootProject.kubejs_version}"
 	modImplementation "curse.maven:ctm-fabric-432493:3233998"
 
 	modCompileOnly("me.shedaniel:RoughlyEnoughItems-api:${rootProject.fabric_rei_version}") {

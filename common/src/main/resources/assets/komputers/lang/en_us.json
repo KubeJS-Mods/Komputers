@@ -1,7 +1,11 @@
 {
 	"itemGroup.komputers.komputers": "Komputers",
+	"block.komputers.computer_parts_block": "Computer Parts Block",
+	"block.komputers.computer_parts_block_ctm": "Computer Parts Block (CTM)",
 	"block.komputers.computer": "Computer",
+	"block.komputers.peripheral": "Computer Peripheral",
 	"block.komputers.lamp": "Smart Lamp",
+	"block.komputers.screen": "Computer Screen",
 	"item.komputers.computer_parts": "Computer Parts",
 	"item.komputers.pocket_computer": "Pocket Computer"
 }

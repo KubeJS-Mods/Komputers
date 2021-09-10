@@ -1,99 +1,51 @@
 {
 	"variants": {
-		"color=black,active=false,ctm=true": {
+		"color=black,ctm=true": {
 			"model": "komputers:block/lamp_black"
 		},
-		"color=red,active=false,ctm=true": {
+		"color=red,ctm=true": {
 			"model": "komputers:block/lamp_red"
 		},
-		"color=green,active=false,ctm=true": {
+		"color=green,ctm=true": {
 			"model": "komputers:block/lamp_green"
 		},
-		"color=blue,active=false,ctm=true": {
+		"color=blue,ctm=true": {
 			"model": "komputers:block/lamp_blue"
 		},
-		"color=cyan,active=false,ctm=true": {
+		"color=cyan,ctm=true": {
 			"model": "komputers:block/lamp_cyan"
 		},
-		"color=magenta,active=false,ctm=true": {
+		"color=magenta,ctm=true": {
 			"model": "komputers:block/lamp_magenta"
 		},
-		"color=yellow,active=false,ctm=true": {
+		"color=yellow,ctm=true": {
 			"model": "komputers:block/lamp_yellow"
 		},
-		"color=white,active=false,ctm=true": {
+		"color=white,ctm=true": {
 			"model": "komputers:block/lamp_white"
 		},
-		"color=black,active=true,ctm=true": {
-			"model": "komputers:block/lamp_black"
-		},
-		"color=red,active=true,ctm=true": {
-			"model": "komputers:block/lamp_red"
-		},
-		"color=green,active=true,ctm=true": {
-			"model": "komputers:block/lamp_green"
-		},
-		"color=blue,active=true,ctm=true": {
-			"model": "komputers:block/lamp_blue"
-		},
-		"color=cyan,active=true,ctm=true": {
-			"model": "komputers:block/lamp_cyan"
-		},
-		"color=magenta,active=true,ctm=true": {
-			"model": "komputers:block/lamp_magenta"
-		},
-		"color=yellow,active=true,ctm=true": {
-			"model": "komputers:block/lamp_yellow"
-		},
-		"color=white,active=true,ctm=true": {
-			"model": "komputers:block/lamp_white"
-		},
-		"color=black,active=false,ctm=false": {
+		"color=black,ctm=false": {
 			"model": "komputers:block/lamp_black_no_ctm"
 		},
-		"color=red,active=false,ctm=false": {
+		"color=red,ctm=false": {
 			"model": "komputers:block/lamp_red_no_ctm"
 		},
-		"color=green,active=false,ctm=false": {
+		"color=green,ctm=false": {
 			"model": "komputers:block/lamp_green_no_ctm"
 		},
-		"color=blue,active=false,ctm=false": {
+		"color=blue,ctm=false": {
 			"model": "komputers:block/lamp_blue_no_ctm"
 		},
-		"color=cyan,active=false,ctm=false": {
+		"color=cyan,ctm=false": {
 			"model": "komputers:block/lamp_cyan_no_ctm"
 		},
-		"color=magenta,active=false,ctm=false": {
+		"color=magenta,ctm=false": {
 			"model": "komputers:block/lamp_magenta_no_ctm"
 		},
-		"color=yellow,active=false,ctm=false": {
+		"color=yellow,ctm=false": {
 			"model": "komputers:block/lamp_yellow_no_ctm"
 		},
-		"color=white,active=false,ctm=false": {
-			"model": "komputers:block/lamp_white_no_ctm"
-		},
-		"color=black,active=true,ctm=false": {
-			"model": "komputers:block/lamp_black_no_ctm"
-		},
-		"color=red,active=true,ctm=false": {
-			"model": "komputers:block/lamp_red_no_ctm"
-		},
-		"color=green,active=true,ctm=false": {
-			"model": "komputers:block/lamp_green_no_ctm"
-		},
-		"color=blue,active=true,ctm=false": {
-			"model": "komputers:block/lamp_blue_no_ctm"
-		},
-		"color=cyan,active=true,ctm=false": {
-			"model": "komputers:block/lamp_cyan_no_ctm"
-		},
-		"color=magenta,active=true,ctm=false": {
-			"model": "komputers:block/lamp_magenta_no_ctm"
-		},
-		"color=yellow,active=true,ctm=false": {
-			"model": "komputers:block/lamp_yellow_no_ctm"
-		},
-		"color=white,active=true,ctm=false": {
+		"color=white,ctm=false": {
 			"model": "komputers:block/lamp_white_no_ctm"
 		}
 	}

@@ -17,8 +17,12 @@ public interface KomputersItems {
 		return REGISTRY.register(Komputers.id(id), () -> new BlockItem(block.get(), new Item.Properties().tab(Komputers.TAB)));
 	}
 
+	Supplier<Item> COMPUTER_PARTS_BLOCK = blockItem("computer_parts_block", KomputersBlocks.COMPUTER_PARTS_BLOCK);
+	Supplier<Item> COMPUTER_PARTS_BLOCK_CTM = blockItem("computer_parts_block_ctm", KomputersBlocks.COMPUTER_PARTS_BLOCK_CTM);
 	Supplier<Item> COMPUTER = blockItem("computer", KomputersBlocks.COMPUTER);
+	Supplier<Item> PERIPHERAL = blockItem("peripheral", KomputersBlocks.PERIPHERAL);
 	Supplier<Item> LAMP = blockItem("lamp", KomputersBlocks.LAMP);
+	Supplier<Item> SCREEN = blockItem("screen", KomputersBlocks.SCREEN);
 	Supplier<Item> COMPUTER_PARTS = REGISTRY.register(Komputers.id("computer_parts"), () -> new Item(new Item.Properties().tab(Komputers.TAB)));
 	Supplier<Item> POCKET_COMPUTER = REGISTRY.register(Komputers.id("pocket_computer"), PocketComputerItem::new);
 

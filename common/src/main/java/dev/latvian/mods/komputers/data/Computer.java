@@ -1,22 +1,26 @@
 package dev.latvian.mods.komputers.data;
 
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.world.level.saveddata.SavedData;
+import dev.latvian.mods.komputers.api.ConsoleAPI;
+import dev.latvian.mods.komputers.api.SystemAPI;
 
-public class Computer extends SavedData {
-	public final long id;
+public class Computer<T> {
+	public final ComputerInfo info;
+	public final T holder;
+	public boolean running;
 
-	public Computer(long l) {
-		super(String.format("komputers_%016x", l));
-		id = l;
+	public final SystemAPI system;
+	public final ConsoleAPI console;
+
+	public Computer(ComputerInfo i, T h) {
+		info = i;
+		holder = h;
+		running = true;
+
+		system = new SystemAPI(this);
+		console = new ConsoleAPI(this);
 	}
 
-	@Override
-	public void load(CompoundTag tag) {
-	}
-
-	@Override
-	public CompoundTag save(CompoundTag tag) {
-		return tag;
+	public boolean isRunning() {
+		return running;
 	}
 }

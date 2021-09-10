@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "komputers:block/computer_parts_block"
+		}
+	}
+}

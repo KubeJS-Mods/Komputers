@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PPG",
+		"PDG",
+		"PPG"
+	],
+	"key": {
+		"P": {
+			"item": "komputers:computer_parts"
+		},
+		"D": {
+			"item": "minecraft:glowstone_dust"
+		},
+		"G": {
+			"item": "minecraft:glass_pane"
+		}
+	},
+	"result": {
+		"item": "komputers:screen"
+	}
+}

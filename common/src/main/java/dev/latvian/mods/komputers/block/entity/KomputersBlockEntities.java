@@ -18,6 +18,8 @@ public interface KomputersBlockEntities {
 	}
 
 	Supplier<BlockEntityType<ComputerBlockEntity>> COMPUTER = register("computer", ComputerBlockEntity::new, KomputersBlocks.COMPUTER.get());
+	Supplier<BlockEntityType<PeripheralBlockEntity>> PERIPHERAL = register("peripheral", PeripheralBlockEntity::new, KomputersBlocks.PERIPHERAL.get());
+	Supplier<BlockEntityType<ScreenBlockEntity>> SCREEN = register("screen", ScreenBlockEntity::new, KomputersBlocks.SCREEN.get());
 
 	static void init() {
 	}

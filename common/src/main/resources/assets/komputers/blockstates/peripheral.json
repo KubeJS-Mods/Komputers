@@ -1,0 +1,30 @@
+{
+	"variants": {
+		"facing=down": {
+			"model": "komputers:block/peripheral"
+		},
+		"facing=up": {
+			"model": "komputers:block/peripheral",
+			"x": 180
+		},
+		"facing=east": {
+			"model": "komputers:block/peripheral",
+			"y": 270,
+			"x": 90
+		},
+		"facing=north": {
+			"model": "komputers:block/peripheral",
+			"y": 180,
+			"x": 90
+		},
+		"facing=south": {
+			"model": "komputers:block/peripheral",
+			"x": 90
+		},
+		"facing=west": {
+			"model": "komputers:block/peripheral",
+			"y": 90,
+			"x": 90
+		}
+	}
+}

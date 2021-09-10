@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" G ",
+		"GPG",
+		" G "
+	],
+	"key": {
+		"P": {
+			"item": "komputers:computer_parts_block"
+		},
+		"G": {
+			"tag": "forge:dusts/glowstone"
+		}
+	},
+	"result": {
+		"item": "komputers:lamp"
+	}
+}
